@@ -1,4 +1,5 @@
 foodfinder
 ==========
 
-Food Finder (e.g. dcfoodfinder.org)
+
+Future home of Food Finder project (e.g. dcfoodfinder.org)
