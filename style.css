@@ -1,0 +1,85 @@
+
+body {font-family: arial, helvetica, sans-serif; font-size:10pt;}
+a:link { color: #336699; text-decoration: none; }
+a:visited { color: #336699; text-decoration: none; }
+a:hover { color: #00688B; text-decoration: none; }
+
+.pagetitle {
+ font-size:16pt;
+ margin-bottom:10pt;
+ font-weight:bold;
+}
+.subtitle { color:black; font-weight:bold; font-size: 10pt; margin-bottom:10px;}
+.getstarted { font-weight:bold; }
+.getstarted_help { margin: 5px; }
+
+#spread_the_word {
+    display: block;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    border: 1px dashed black; 
+    padding: 5px; 
+    float: right; 
+    clear: right; 
+    width: 240px;
+}
+
+#spreadUL {
+	margin: 2px 0 2px 0;
+	padding-left: 16px;
+}
+
+.enter_address { font-size: 12px; font-weight:bold; }   
+.copyright { color:black; font-weight:bold; font-size: 10pt;}
+.toplink { font-size: 10pt; }
+
+.markers {	
+    height: 375px; width: 300px;
+    overflow: auto;
+    padding: 8px;
+}
+
+.marker {display:block; }
+.marker_title {display:block; font-weight: bold}
+.marker_address {display:block; color:gray; font-size:10px;}
+.marker_phone {display:block; color:gray; font-size:10px;}
+.marker_website {display:block; color:gray; font-size:10px;}
+.marker_desc {display:block; font-size:11px;}
+.marker_hours {display:block; font-size:11px;}
+
+.infobox {display:block; width: 250px;}
+
+.selectMarkerCategories{ font-size: 10pt; }
+
+.lowerLink {padding-right:10px; padding-left:3px;}
+
+
+/* A.INFO is for the resource descriptions */
+a.info{
+    position:relative; /*this is the key*/
+    z-index:24;
+    text-decoration:none;
+    color:black;	
+}
+
+a.info:hover{z-index:25; background: none;}
+
+a.info span{
+	display:none; 
+	visibility:hidden;
+}
+
+a.info:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    visibility:visible;
+    top:0px; left:2em; width:15em;
+    padding: 5px;
+    border:1px solid black;
+    color:black;
+    background-color:white;
+    text-align:left
+}
+
+
+
